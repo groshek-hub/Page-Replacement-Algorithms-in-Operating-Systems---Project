@@ -1,0 +1,39 @@
+B
+
+    ©ű_.  ă               @   sT   d dl Z d dlm Z  dd„ Zdd„ Zdd„ Zd	d
+„ Zdd„ Zd
+d„ Ze  e  dS )é    N)Úrandomc              C   sB   t dd} x*tdD ]}|  tt ddˇd ˇ qW |  ˇ  d S )Nzwartosci.txtÚwi'  é   é   Ú
+)ÚopenÚrangeÚwriteÚstrr   ÚrandintÚclose)ÚwartosciÚx© r   őP   D:\UĹĽytkownicy\Pulpit\PaweĹ‚ - SO - projekt\Generator_danych_czasu_procesora.pyÚ	generator   s
+    
+
+r   c              C   sB   t dd} x*tdD ]}|  tt ddˇd ˇ qW |  ˇ  d S )Nzwartosci_czas_przybycia.txtr   i'  r   ée   r   )r   r   r	   r
+   r   r   r   )Úwartosci_czas_przybyciar   r   r   r   Úgenerator_czas_przybycia   s    
+r   c              C   sB   t dd} x*tdD ]}|  tt ddˇd ˇ qW |  ˇ  d S )Nzwartosci.txtr   i'  r   r   r   )r   r   r	   r
+   r   r   r   )r
+   r   r   r   r   Úgenerator_czas_trwania   s    
+
+r   c              C   sX   t dd} x@tdD ]4}|  ttjdddddgd	d
+ddd
+gdŤd ˇ qW |  ˇ  d S )Nzwartosci.txtr   i'  é   é   é   é   é
+   g{®Gáz”?g{®Gáz´?gš™™™™™Ů?gš™™™™™É?gffffffÖ?)Úpr   )r   r   r	   r
+   r   Úchoicer   )r
+   r   r   r   r   Únumpy_generator_1%   s    
+
+r   c              C   sX   t dd} x@tdD ]4}|  ttjdddddgd	d
+ddd
+gdŤd ˇ qW |  ˇ  d S )Nzwartosci.txtr   i'  r   é   é   é	   é   g{®Gáz”?g{®Gáz´?gš™™™™™Ů?gš™™™™™É?gffffffÖ?)r   r   )r   r   r	   r
+   r   r   r   )r
+   r   r   r   r   Únumpy_generator_20   s    
+
+r"   c              C   sl   t dd} xTtdD ]H}|  ttjdddddd	d
+ddd
+g
+ddddddddddg
+dŤd ˇ qW |  ˇ  d S )Nzwartosci.txtr   i'  r   r   r   r   r   r   é   r   r    r   g{®Gáz„?g
+×Łp=
+§?gš™™™™™ą?g{®GázÄ?gš™™™™™É?)r   r   )r   r   r	   r
+   r   r   r   )r
+   r   r   r   r   Únormalna_dystr;   s    
+
+ r$   )r   Znumpyr   r   r   r   r"   r$   r   r   r   r   Ú<module>   s   	
+
